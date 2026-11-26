@@ -1,0 +1,15 @@
+name: OrangeCustomItems
+version: 1.0.0
+main: com.orangemc.items.OrangeCustomItems
+api-version: '1.21.5'
+author: OrangeMC
+description: Custom items for OrangeMC.
+commands:
+  oci:
+    description: Manage OrangeCustomItems.
+    usage: /oci <give|list|reload>
+    permission: orangecustomitems.admin
+permissions:
+  orangecustomitems.admin:
+    description: Allows managing OrangeCustomItems.
+    default: op
